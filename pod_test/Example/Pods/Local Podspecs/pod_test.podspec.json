@@ -1,6 +1,6 @@
 {
   "name": "pod_test",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of pod_test.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/15528088884@163.com/pod_test",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/15528088884@163.com/pod_test.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
