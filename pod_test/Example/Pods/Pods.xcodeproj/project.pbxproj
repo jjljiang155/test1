@@ -26,8 +26,8 @@
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96975E3526560625009B89C1 /* NStringTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 96975E3326560625009B89C1 /* NStringTest.h */; };
-		96975E3626560625009B89C1 /* NStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96975E3426560625009B89C1 /* NStringTest.m */; };
+		96975E6126562E04009B89C1 /* NStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96975E5F26562E04009B89C1 /* NStringTest.m */; };
+		96975E6226562E04009B89C1 /* NStringTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 96975E6026562E04009B89C1 /* NStringTest.h */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		9FB8459AF290A8DD0F38B6139EBAC86A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 730C341A9CC1BCC56FF256C0A5926E54 /* ReplaceMe.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -103,8 +103,8 @@
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		96975E3326560625009B89C1 /* NStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NStringTest.h; sourceTree = "<group>"; };
-		96975E3426560625009B89C1 /* NStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NStringTest.m; sourceTree = "<group>"; };
+		96975E5F26562E04009B89C1 /* NStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NStringTest.m; path = pod_test/Classes/NStringTest.m; sourceTree = "<group>"; };
+		96975E6026562E04009B89C1 /* NStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NStringTest.h; path = pod_test/Classes/NStringTest.h; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6A7F76ED406EA259C398642760C194 /* pod_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pod_test.debug.xcconfig; sourceTree = "<group>"; };
@@ -304,8 +304,8 @@
 		B97A44669E47AED8D1DE6D88ECF6A0D1 /* pod_test */ = {
 			isa = PBXGroup;
 			children = (
-				96975E3326560625009B89C1 /* NStringTest.h */,
-				96975E3426560625009B89C1 /* NStringTest.m */,
+				96975E6026562E04009B89C1 /* NStringTest.h */,
+				96975E5F26562E04009B89C1 /* NStringTest.m */,
 				730C341A9CC1BCC56FF256C0A5926E54 /* ReplaceMe.m */,
 				86AF71C584AD96E9A5C0CB09AB30C07D /* Pod */,
 				422FC2E16F61EFE1D7880EA4FA0AB269 /* Support Files */,
@@ -393,7 +393,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96975E3526560625009B89C1 /* NStringTest.h in Headers */,
+				96975E6226562E04009B89C1 /* NStringTest.h in Headers */,
 				70C4F06E8A1517B8A6907472992425D3 /* pod_test-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,7 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B15F11486BC24A2022ABB8330F617D5 /* pod_test-dummy.m in Sources */,
-				96975E3626560625009B89C1 /* NStringTest.m in Sources */,
+				96975E6126562E04009B89C1 /* NStringTest.m in Sources */,
 				9FB8459AF290A8DD0F38B6139EBAC86A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
