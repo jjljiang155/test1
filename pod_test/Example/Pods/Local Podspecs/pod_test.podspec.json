@@ -1,0 +1,22 @@
+{
+  "name": "pod_test",
+  "version": "0.1.0",
+  "summary": "A short description of pod_test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15528088884@163.com/pod_test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15528088884@163.com": "jiangjianli"
+  },
+  "source": {
+    "git": "https://github.com/15528088884@163.com/pod_test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "pod_test/Classes/**/*"
+}
